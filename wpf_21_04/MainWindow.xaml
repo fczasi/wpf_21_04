@@ -58,67 +58,67 @@
             </ListBoxItem>
         </ListBox>
 
-        <Rectangle Height="100" Stroke="RosyBrown" Fill="LightCoral" StrokeThickness="5" Width="100" Margin="240,-56,10,256" Visibility="Visible" Name="thecactusrec" >
+        <Rectangle Height="100" Stroke="RosyBrown" Fill="LightCoral" StrokeThickness="5" Width="100" Margin="240,-56,10,256" Visibility="Hidden" Name="thecactusrec" >
         </Rectangle>
-        <Rectangle Height="100" Stroke="NavajoWhite" Fill="LightGray" StrokeThickness="5" Width="100" Margin="450,-56,-200,256" Visibility="Visible" Name="bestcactusrec">
+        <Rectangle Height="100" Stroke="NavajoWhite" Fill="LightGray" StrokeThickness="5" Width="100" Margin="450,-56,-200,256" Visibility="Hidden" Name="bestcactusrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="IndianRed" Fill="GreenYellow" StrokeThickness="5" Width="100" Margin="240,74,10,126" Visibility="Visible" Name="cactusesrec">
+        <Rectangle Height="100" Stroke="IndianRed" Fill="GreenYellow" StrokeThickness="5" Width="100" Margin="240,74,10,126" Visibility="Hidden" Name="cactusesrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="Fuchsia" Fill="LightGreen" StrokeThickness="5" Width="100" Margin="450,74,-200,126" Visibility="Visible" Name="icecreamrec">
+        <Rectangle Height="100" Stroke="Fuchsia" Fill="LightGreen" StrokeThickness="5" Width="100" Margin="450,74,-200,126" Visibility="Hidden" Name="icecreamrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="WhiteSmoke" Fill="LightBlue" StrokeThickness="5" Width="100" Margin="240,217,10,-17" Visibility="Visible" Name="stockcactusrec">
+        <Rectangle Height="100" Stroke="WhiteSmoke" Fill="LightBlue" StrokeThickness="5" Width="100" Margin="240,217,10,-17" Visibility="Hidden" Name="stockcactusrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="Red" Fill="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17" Visibility="Visible" Name="paintingcactusrec">
+        <Rectangle Height="100" Stroke="Red" Fill="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17" Visibility="Hidden" Name="paintingcactusrec">
         </Rectangle>
 
-        <Slider Name="thecactussli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="325,-46,10,266" ValueChanged="thecactussli_ValueChanged">
+        <Slider Name="thecactussli" Visibility="Hidden" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="325,-46,10,266" ValueChanged="thecactussli_ValueChanged">
         </Slider>
-        <Slider Name="paintingcactusli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="535,227,-200,-7" ValueChanged="paintingcactusli_ValueChanged">
+        <Slider Name="paintingcactusli" Visibility="Hidden" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="535,227,-200,-7" ValueChanged="paintingcactusli_ValueChanged">
         </Slider>
-        <Slider Name="bestcactusli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="535,-46,-200,266" ValueChanged="bestcactusli_ValueChanged">
+        <Slider Name="bestcactusli" Visibility="Hidden" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="535,-46,-200,266" ValueChanged="bestcactusli_ValueChanged">
         </Slider>
-        <Slider Name="cactusesli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="325,84,10,136" ValueChanged="cactusesli_ValueChanged">
+        <Slider Name="cactusesli" Visibility="Hidden" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="325,84,10,136" ValueChanged="cactusesli_ValueChanged">
         </Slider>
-        <Slider Name="icecreamli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="535,84,-200,136" ValueChanged="icecreamli_ValueChanged">
+        <Slider Name="icecreamli" Visibility="Hidden" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="535,84,-200,136" ValueChanged="icecreamli_ValueChanged">
         </Slider>
-        <Slider Name="stockcactusli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="325,227,10,-7" ValueChanged="stockcactusli_ValueChanged">
+        <Slider Name="stockcactusli" Visibility="Hidden" Width="15" Height="80" Orientation="Vertical" Background="Gray" Maximum="100" Minimum="50" Margin="325,227,10,-7" ValueChanged="stockcactusli_ValueChanged">
         </Slider>
 
         <ScrollBar Name="thecactussb" Orientation="Horizontal"  
         Margin="240,34,10,249"  
         Width ="100" Height="15"  
         Background="gray"  
-        Minimum="50" Maximum="100" ValueChanged="thecactussb_ValueChanged"/>
+        Minimum="50" Maximum="100" ValueChanged="thecactussb_ValueChanged" Visibility="Hidden"/>
 
         <ScrollBar Name="bestcactusb" Orientation="Horizontal"  
         Margin="450,34,-200,249"  
         Width ="100" Height="15"  
         Background="gray"  
-        Minimum="50" Maximum="100"/>
+        Minimum="50" Maximum="100" ValueChanged="bestcactusb_ValueChanged" Visibility="Hidden"/>
 
         <ScrollBar Name="cactusesb" Orientation="Horizontal"  
         Margin="240,164,10,119"  
         Width ="100" Height="15"  
         Background="gray"  
-        Minimum="50" Maximum="100"/>
+        Minimum="50" Maximum="100" ValueChanged="cactusesb_ValueChanged" Visibility="Hidden"/>
 
         <ScrollBar Name="icecreamsb" Orientation="Horizontal"  
         Margin="450,164,-200,119"  
         Width ="100" Height="15"  
         Background="gray"  
-        Minimum="50" Maximum="100"/>
+        Minimum="50" Maximum="100" ValueChanged="icecreamsb_ValueChanged" Visibility="Hidden"/>
 
         <ScrollBar Name="stockcactusb" Orientation="Horizontal"  
         Margin="240,307,10,-24"  
         Width ="100" Height="15"  
         Background="gray"  
-        Minimum="50" Maximum="100"/>
+        Minimum="50" Maximum="100" ValueChanged="stockcactusb_ValueChanged" Visibility="Hidden"/>
 
         <ScrollBar Name="paintingcactusb" Orientation="Horizontal"  
         Margin="450,307,-200,-24"  
         Width ="100" Height="15"  
         Background="gray"  
-        Minimum="50" Maximum="100"/>
+        Minimum="50" Maximum="100" ValueChanged="paintingcactusb_ValueChanged" Visibility="Hidden"/>
         
 
     <ProgressBar Minimum="0" Maximum="6" Margin="-197,312,270,-48" Name="cactusprogress"/>
