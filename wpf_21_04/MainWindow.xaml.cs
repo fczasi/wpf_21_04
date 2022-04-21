@@ -94,5 +94,30 @@ namespace wpf_20_04_22
             paintingcactusli.Visibility = Visibility.Hidden;
             cactusprogress.Value--;
         }
+
+        private void thecactussli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            thecactusrec.Height = thecactussli.Value;
+        }
+        private void paintingcactusli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            paintingcactusrec.Height = paintingcactusli.Value;
+        }
+        private void bestcactusli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            bestcactusrec.Height = bestcactusli.Value;
+        }
+        private void cactusesli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            cactusesrec.Height = cactusesli.Value;
+        }
+        private void icecreamli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            icecreamrec.Height = icecreamli.Value;
+        }
+        private void stockcactusli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            stockcactusrec.Height = stockcactusli.Value;
+        }
     }
 }
