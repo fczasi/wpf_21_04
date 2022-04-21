@@ -119,5 +119,10 @@ namespace wpf_20_04_22
         {
             stockcactusrec.Height = stockcactusli.Value;
         }
+
+        private void thecactussb_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
     }
 }
